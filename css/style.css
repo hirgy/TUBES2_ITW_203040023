@@ -1,0 +1,271 @@
+body {
+    height: 1000px;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 18px;
+    background: url(../img/bg_4.jpg);
+    color: white;
+}
+
+/* navbar */
+.navbar {
+    font-family: 'Redressed', cursive;
+    font-size: 22px;
+}
+
+.navbar-brand {
+    font-size: 32px;
+    font-family: 'Paytone One', sans-serif;
+    color: #deb887 !important;
+}
+
+.bg-dark {
+    transition: 800ms ease;
+    background: transparent !important;
+}
+
+.bg-dark.scrolled {
+    background: rgba(10, 4, 2, 0.486) !important;
+}
+
+
+
+/* banner */
+#home .carousel-item {
+    height: 100vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+#home .carousel-caption {
+    bottom: 300px;
+}
+
+#home .carousel-caption h3 {
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px;
+    font-family: "Lato", sans-serif;
+
+}
+
+#home button {
+    margin-top: 20px;
+}
+
+/* skills */
+#skills {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#skills h1 {
+    font-family: 'Redressed', cursive;
+}
+
+#skills .round {
+    min-height: 255px;
+    margin-top: 30px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+#skills .round strong {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    transform: translate(-50%);
+    font-size: 40px;
+    color: white;
+    font-weight: 100;
+}
+
+#skills span {
+    display: block;
+    color: #999;
+    font-size: 17px;
+    margin-top: 10px;
+}
+
+#skills span i {
+    color: #deb887;
+    font-size: 22px;
+    margin-right: 7px;
+}
+
+section button {
+    color: white;
+}
+
+section button:hover {
+    background-color: #deb887;
+}
+
+/* services */
+
+
+/* menu */
+#menu h1 {
+    margin-bottom: 30px;
+    font-family: 'Redressed', cursive;
+}
+
+.menu {
+    margin-top: 100px;
+    background-size: cover;
+
+}
+
+.single-menu {
+    color: black;
+    background-color: #fff;
+    box-shadow: 0px 10px 30px 0px rgba(182, 136, 52, 0.2);
+    border-radius: 10px;
+    padding: 30px 30px;
+    margin-bottom: 30px;
+}
+
+.single-menu .title-div {
+    padding-bottom: 20px;
+}
+
+.single-menu .price {
+    color: #b68834;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.single-menu p {
+    margin-bottom: 0;
+}
+
+
+/* coffee */
+#coffee {
+    margin-top: 100px;
+}
+
+#coffee h1 {
+    font-family: 'Redressed', cursive;
+    margin-bottom: 8px;
+}
+
+.inner {
+    overflow: hidden;
+}
+
+.inner img {
+    transition: all 1.6s ease;
+}
+
+.inner img:hover {
+    transform: scale(1.4);
+}
+
+/* services */
+#services {
+    background: #c49b63;
+    margin-top: 200px;
+}
+
+#services h1 {
+    font-family: 'Redressed', cursive;
+    margin-top: 100px;
+    margin-bottom: 85px;
+    color: black;
+}
+
+#services img {
+    width: 90px;
+    height: 90px;
+    margin: 0 auto;
+    position: relative;
+    bordeR: 1px solid #674c27;
+}
+
+#services h4 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    color: black;
+}
+
+#services p {
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+/* contact */
+#contact {
+    margin-top: 100px;
+}
+
+#contact h1 {
+    font-family: 'Redressed', cursive;
+}
+
+#contact .list-group {
+    color: black;
+}
+
+/* footer */
+.footer-area {
+    color: #fff;
+    padding-top: 90px;
+}
+
+.footer-area h6 {
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.copy-right-text i,
+.copy-right-text a {
+    color: #b68834;
+}
+
+.single-footer-widget input:focus {
+    background-color: #fff;
+}
+
+.single-footer-widget .bb-btn {
+    color: #b68834;
+    color: #fff;
+    font-weight: 300;
+    border-radius: 0;
+    z-index: 9999;
+    cursor: pointer;
+}
+
+.single-footer-widget .info {
+    position: absolute;
+    margin-top: 20%;
+    color: #fff;
+    font-size: 12px;
+}
+
+.single-footer-widget .click-btn {
+    background-color: #b68834;
+    color: #fff;
+    border-radius: 0;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    padding: 8px 12px;
+    border: 0;
+}
+
+.footer-text {
+    padding-top: 20px;
+}
+
+.footer-text a,
+.footer-text i {
+    color: #b68834;
+}
